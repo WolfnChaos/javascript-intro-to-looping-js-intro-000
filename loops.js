@@ -9,10 +9,11 @@ function forLoop(array) {
   return array
 }
 
-n = 5
+n = 1
 
 function whileLoop(n) {
   while (n > 0) {
-    console.log(--n);
+    console.log(`I run once regardless.`);
+    n -= 1;
   }
 }
