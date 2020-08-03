@@ -13,10 +13,10 @@ function forLoop(array) {
 n = 1
 function whileLoop(n) {
   while (n < 0) {
-      if (n === 1) {
-        console.log(--n);
-      } else {
-          return `done`
-      }
+    if (n === 1) {
+      console.log(--n);
+    } else {
+        return `done`
+    }
   }
 }
