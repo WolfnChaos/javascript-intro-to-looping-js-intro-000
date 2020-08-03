@@ -14,7 +14,6 @@ n = 1
 function whileLoop(n) {
   while (n < 0) {
       if (n === 1) {
-        console.log(`I run once regardless.`);
         n -= 1;
       } else {
           return `done`
